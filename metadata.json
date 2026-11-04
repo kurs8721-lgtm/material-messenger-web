@@ -1,0 +1,6 @@
+{
+  "name": "Material Web Messenger",
+  "description": "A Google Material You (M3) Web Messenger featuring adaptive layouts, dynamic tonal theming, rich chat streams, and responsive panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,283 @@
+---
+name: Material Web Messenger
+colors:
+  surface: '#fef7ff'
+  surface-dim: '#dfd7e3'
+  surface-bright: '#fef7ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f9f1fd'
+  surface-container: '#f3ebf7'
+  surface-container-high: '#ede6f1'
+  surface-container-highest: '#e7e0eb'
+  on-surface: '#1d1a22'
+  on-surface-variant: '#494551'
+  inverse-surface: '#322f37'
+  inverse-on-surface: '#f6eefa'
+  outline: '#7a7582'
+  outline-variant: '#cbc4d2'
+  surface-tint: '#6750a4'
+  primary: '#4f378a'
+  on-primary: '#ffffff'
+  primary-container: '#6750a4'
+  on-primary-container: '#e0d2ff'
+  inverse-primary: '#cfbcff'
+  secondary: '#625b71'
+  on-secondary: '#ffffff'
+  secondary-container: '#e8def9'
+  on-secondary-container: '#686177'
+  tertiary: '#633b48'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#7d5260'
+  on-tertiary-container: '#ffcbda'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e9ddff'
+  primary-fixed-dim: '#cfbcff'
+  on-primary-fixed: '#22005d'
+  on-primary-fixed-variant: '#4f378a'
+  secondary-fixed: '#e8def9'
+  secondary-fixed-dim: '#ccc2dc'
+  on-secondary-fixed: '#1e192b'
+  on-secondary-fixed-variant: '#4a4358'
+  tertiary-fixed: '#ffd9e3'
+  tertiary-fixed-dim: '#eeb8c8'
+  on-tertiary-fixed: '#31111d'
+  on-tertiary-fixed-variant: '#633b48'
+  background: '#fef7ff'
+  on-background: '#1d1a22'
+  surface-variant: '#e7e0eb'
+typography:
+  display-lg:
+    fontFamily: Roboto Flex
+    fontSize: 57px
+    fontWeight: '400'
+    lineHeight: 64px
+    letterSpacing: -0.25px
+  display-md:
+    fontFamily: Roboto Flex
+    fontSize: 45px
+    fontWeight: '400'
+    lineHeight: 52px
+    letterSpacing: 0px
+  display-sm:
+    fontFamily: Roboto Flex
+    fontSize: 36px
+    fontWeight: '400'
+    lineHeight: 44px
+    letterSpacing: 0px
+  headline-lg:
+    fontFamily: Roboto Flex
+    fontSize: 32px
+    fontWeight: '400'
+    lineHeight: 40px
+    letterSpacing: 0px
+  headline-lg-mobile:
+    fontFamily: Roboto Flex
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 36px
+    letterSpacing: 0px
+  headline-md:
+    fontFamily: Roboto Flex
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 36px
+    letterSpacing: 0px
+  headline-sm:
+    fontFamily: Roboto Flex
+    fontSize: 24px
+    fontWeight: '400'
+    lineHeight: 32px
+    letterSpacing: 0px
+  title-lg:
+    fontFamily: Roboto Flex
+    fontSize: 22px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: 0px
+  title-md:
+    fontFamily: Roboto Flex
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: 0.15px
+  title-sm:
+    fontFamily: Roboto Flex
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.1px
+  body-lg:
+    fontFamily: Roboto Flex
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0.5px
+  body-md:
+    fontFamily: Roboto Flex
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0.25px
+  body-sm:
+    fontFamily: Roboto Flex
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.4px
+  label-lg:
+    fontFamily: Roboto Flex
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.1px
+  label-md:
+    fontFamily: Roboto Flex
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.5px
+  label-sm:
+    fontFamily: Roboto Flex
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.5px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-mobile: 0.5rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-mobile: 1rem
+  margin-desktop: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system adheres faithfully to Google’s Material Design 3 (Material You) specification, optimized specifically for modern web communication and messaging. The personality is expressive, fluid, reliable, and approachable, delivering an intuitive atmosphere where personal chats, enterprise channels, and shared media coexist with functional clarity.
+
+The visual style blends tonal elevation tiers, dynamic surface tinting, and high-legibility typographic hierarchies. Structural containers maintain soft, structural curvature, while interactive pills, floating action buttons (FABs), and chips invite touch- and pointer-driven engagement. State layers utilize translucent overlays over solid or tonal fills to deliver instant, tangible tactile feedback across all standard interactions.
+
+## Colors
+
+The color palette directly implements the canonical Material Design 3 baseline tonal scheme. Surfaces rely on tonal separation rather than hard dividing strokes.
+
+### Color Tokens & Assignments
+- **Primary (`#6750A4`)**: Key brand accents, active navigational icons, message bubbles sent by the local user, prominent buttons.
+- **On-Primary (`#FFFFFF`)**: High-contrast glyphs and typography displayed over `primary`.
+- **Primary Container (`#EADDFF`)**: Secondary active states, active tab indicators, selected conversation list item highlights.
+- **On-Primary Container (`#21005D`)**: Deep purple labels and iconography nested inside `primary-container`.
+- **Secondary (`#625B71`)**: Supporting actions, inactive pill chips, auxiliary meta labels.
+- **On-Secondary (`#FFFFFF`)**: Text/icons over `secondary`.
+- **Secondary Container (`#E8DEF8`)**: Selected chip backings, badge indicators.
+- **On-Secondary Container (`#1D192B`)**: Content layered over `secondary-container`.
+- **Surface (`#FEF7FF`)**: Application baseline canvas and outer window backgrounds.
+- **Surface Dim (`#DED8E1`) / Surface Bright (`#FEF7FF`)**: Adaptive contrast baselines.
+- **Surface Container Lowest (`#FFFFFF`)**: Elevated floating message input shells and popup menus.
+- **Surface Container (`#F3EDF7`)**: Inbound chat bubbles, side navigation rails, list foundations.
+- **Surface Container High (`#ECE6F0`)**: Top app bars, search sheet headers, card panels.
+- **Surface Container Highest (`#E6E0E9`)**: Input field backings, dividers, neutral chip surfaces.
+- **On-Surface (`#1D1B20`)**: Primary body copy, message stream text, modal headings.
+- **On-Surface Variant (`#49454F`)**: Secondary chat preview timestamps, read receipt icons, muted metadata.
+- **Outline (`#79747E`)**: Structural component borders, outlined text-field perimeters.
+- **Outline Variant (`#CAC4D0`)**: Subtle divider rules, bottom sheet hairline dividers.
+
+### State Layers
+State layers apply opacity overlays of the corresponding `on-*` color:
+- **Hover**: 8% opacity.
+- **Focus**: 12% opacity.
+- **Pressed**: 12% opacity.
+- **Dragged**: 16% opacity.
+
+## Typography
+
+The type scale leverages Roboto Flex, taking full advantage of variable font capabilities to maintain balanced optical legibility across compact chat panels and expanded widescreen communication dashboards.
+
+- **Conversation Titles & App Bars**: Use `title-lg` for prominent channel headlines and thread names.
+- **Message Content**: Use `body-lg` (16px) for incoming/outgoing chat messages to ensure comfortable scanning. Dense chat modes may drop to `body-md` (14px).
+- **Metadata & Timestamps**: Render via `label-sm` or `body-sm` using `on-surface-variant` to sit receded behind chat text.
+- **Button Labels & Chips**: Strictly apply `label-lg` with a medium (500) weight for visual grounding.
+
+## Layout & Spacing
+
+Layout construction adapts through an 8dp baseline grid (with a secondary 4dp subgrid for tight chip, badge, and message cluster alignments).
+
+### Responsive Form Factors & Screen Adapters
+- **Mobile (<600dp)**: Single-pane stack view. Conversations open into full-screen views over the conversation list. Uses a bottom navigation bar (`height: 80px`) and full-width chat input docked to the soft keyboard.
+- **Tablet (600dp - 839dp)**: Flexible dual-pane layout. Navigation transitions into an 80px Navigation Rail on the far left. Conversation list spans 320dp, while the active thread takes the remaining width.
+- **Desktop (≥840dp)**: Standard M3 Two-Pane or Three-Pane messenger canvas. The expanded navigation rail (up to 256dp) or standard rail (80dp) anchors the left side. The master thread list maintains a fixed width between 360dp and 400dp. The active chat panel flexes dynamically, with an optional collapsible details drawer (360dp) anchoring the right side for profile details, shared assets, and group membership.
+
+### Spacing Application
+- Component padding follows strictly defined intervals: `space-xs` (4px) between message timestamps and status ticks; `space-sm` (8px) between adjacent bubbles from the same sender; `space-md` (16px) between alternating sender blocks and standard card padding.
+
+## Elevation & Depth
+
+Material Design 3 establishes hierarchy through tonal surface containment combined with soft, natural ambient shadowing. Higher elevation levels mix a small amount of the primary color into the surface canvas in addition to casting shadows.
+
+### Elevation Levels
+- **Level 0 (Flat, 0dp)**: Canvas foundation (`surface`). Used for background chat stream walls and standard flat list tiles. No drop shadow.
+- **Level 1 (1dp)**: `surface-container-low` (`#F7F2FA`). Subtle ambient shadow: `box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)`. Used for inbound chat bubbles, standard cards, and search bars in rested states.
+- **Level 2 (3dp)**: `surface-container` (`#F3EDF7`). Shadow: `box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)`. Used for hovered cards, active search fields, and scrolled top app bars.
+- **Level 3 (6dp)**: `surface-container-high` (`#ECE6F0`). Shadow: `box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30)`. Used for standard Floating Action Buttons (FABs) in rested states and dropdown menus.
+- **Level 4 (8dp)**: `surface-container-highest` (`#E6E0E9`). Shadow: `box-shadow: 0px 6px 10px 4px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.30)`. Hovered FAB states, bottom sheets.
+- **Level 5 (12dp)**: Dialog modals and critical alert banners. Shadow: `box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.30)`.
+
+## Shapes
+
+This design system employs standard M3 geometric curvature tiers to distinguish structural surfaces from actionable pills.
+
+- **None (0px)**: Root browser viewports, full-bleed media attachments.
+- **Extra Small (4px)**: Tooltips, micro indicators, badge counts.
+- **Small (8px / `rounded-sm`)**: In-message code snippets, context chip containers, stacked quick-reactions.
+- **Medium (12px / `rounded-md`)**: Secondary media thumbnails, nested card items.
+- **Large (16dp / `rounded-2xl`)**: The core structural messenger token. Standard cards, group information panels, dialog sheets, and bottom sheets.
+- **Full / Pill (9999px)**: Interactive action nodes including standard buttons, input pills, search bars, filter chips, avatar initials, and Floating Action Buttons (56dp standard FABs use a 16dp radius or a full circular pill depending on standard vs. extended variant).
+- **Asymmetric Shapes (Chat Bubbles)**:
+  - **Outgoing Bubbles**: `rounded-2xl` with the bottom-right tail corner reduced to 4px.
+  - **Incoming Bubbles**: `rounded-2xl` with the bottom-left tail corner reduced to 4px.
+
+## Components
+
+### Buttons
+- **Filled Button**: Primary call-to-action (`Send`, `Start New Chat`). Background `primary` (`#6750A4`), label `on-primary` (`#FFFFFF`). Pill-shaped (`height: 40px`, horizontal padding `24px`).
+- **Tonal Button**: Low-emphasis actions (`Add attachment`). Background `secondary-container`, text `on-secondary-container`. Pill-shaped.
+- **Outlined Button**: Border `1px solid outline`, text `primary`.
+- **Text Button**: Borderless, padded with `12px` horizontally, text `primary`.
+
+### Floating Action Button (FAB)
+- Standard FAB sits anchored at the bottom-right of conversation lists on mobile and tablet.
+- Container: 56×56dp with 16dp rounded corners, filled with `primary-container` (`#EADDFF`), icon colored in `on-primary-container` (`#21005D`).
+- Elevation: Level 3 at rest, Level 4 on hover/press.
+
+### Chat Bubbles & Stream
+- **Outgoing Message**: Surface filled with `primary` (`#6750A4`), text `on-primary` (`#FFFFFF`). Meta and read receipts colored with `on-primary` at 70% opacity. Corner radii: `16px 16px 4px 16px`.
+- **Incoming Message**: Surface filled with `surface-container` (`#F3EDF7`), text `on-surface` (`#1D1B20`). Timestamp set in `on-surface-variant` (`#49454F`). Corner radii: `16px 16px 16px 4px`.
+- **Message Grouping**: Successive messages within 60 seconds drop the tail reduction and use uniform 8px vertical spacing.
+
+### Search Bar & Message Composer
+- **Search Bar**: Docked atop lists. Height 56px, fully pill-shaped (9999px), filled with `surface-container-high` (`#ECE6F0`). Contains leading search icon, trailing profile or clear button, using `body-lg` text style.
+- **Message Composer Input**: Pill-shaped or 24px rounded container in `surface-container-highest` (`#E6E0E9`). Trailing actions for attachments, emoji pickers, and mic/send buttons. Outlined states use `outline` token on focus with a 2px active ring.
+
+### Chips & Filters
+- Fully rounded (9999px) height 32px.
+- **Selected**: Background `secondary-container` (`#E8DEF8`), label `on-secondary-container` (`#1D192B`), optional checkmark icon.
+- **Unselected**: Surface background with `outline-variant` 1px border, text `on-surface-variant`.
+
+### Lists & Navigation
+- **Conversation List Items**: Height 72px. Contains 40px circular avatar, primary headline (`title-md`), preview copy (`body-md`), and trailing timestamp (`label-sm`).
+- **Selected Conversation**: Highlighted with an internal pill or full container fill of `primary-container` (`#EADDFF`) and text shifted to `on-primary-container` (`#21005D`).
+- **Bottom Navigation (Mobile)**: 80px height, background `surface-container`, containing 3-5 destinations. Active destination highlighted with a pill-shaped indicator (`height: 32px, width: 64px`) in `secondary-container`.
